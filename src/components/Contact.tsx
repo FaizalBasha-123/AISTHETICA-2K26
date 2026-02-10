@@ -48,7 +48,7 @@ const Contact = () => {
               <p className="text-gray-500 mb-4">Find us at our campus location</p>
               <address className="not-italic text-symposium-pink">
                 <p>AI & DS And Cyber Security Department,</p>
-                <p>Dhanalakshmi Srinivasan College of Engineering,</p>
+                <p>Dhanalakshmi Srinivasan Engineering College,</p>
                 <p>Tamil Nadu, India</p>
               </address>
             </CardContent>

@@ -55,7 +55,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <address className="not-italic text-gray-400 space-y-2">
-              <p> Dhanalakshmi Srinivasan College of Engineering</p>
+              <p> Dhanalakshmi Srinivasan Engineering College</p>
               <p> tamilnadu, india</p>
               <p>Email: mailtoaisthetica@gmail.com</p>
             </address>

@@ -60,12 +60,12 @@ const Schedule = () => {
           </span>
           <button
             onClick={toggleEventType}
-            className="relative inline-flex h-8 w-16 items-center rounded-full bg-gray-200 transition-colors focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 shadow-inner"
+            className="relative inline-flex h-8 w-16 items-center rounded-full bg-gray-200 transition-colors focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 shadow-inner overflow-hidden"
             style={{ backgroundColor: eventType === 'technical' ? '#16a34a' : '#d1d5db' }}
           >
             <span
               className={`inline-block h-6 w-6 transform rounded-full bg-white shadow-lg transition-transform duration-200 ease-in-out ${
-                eventType === 'technical' ? 'translate-x-9' : 'translate-x-1'
+                eventType === 'technical' ? 'translate-x-8' : 'translate-x-1'
               }`}
             />
           </button>

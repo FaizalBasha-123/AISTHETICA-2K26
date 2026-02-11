@@ -700,12 +700,12 @@ const Events = () => {
           </span>
           <button
             onClick={toggleEventType}
-            className="relative inline-flex h-9 w-[72px] items-center rounded-full bg-gray-200 transition-colors focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 shadow-inner"
+            className="relative inline-flex h-9 w-[72px] items-center rounded-full bg-gray-200 transition-colors focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 shadow-inner overflow-hidden"
             style={{ backgroundColor: eventType === 'technical' ? '#16a34a' : '#d1d5db' }}
           >
             <span
               className={`inline-block h-7 w-7 transform rounded-full bg-white shadow-lg transition-transform duration-200 ease-in-out ${
-                eventType === 'technical' ? 'translate-x-10' : 'translate-x-1'
+                eventType === 'technical' ? 'translate-x-9' : 'translate-x-1'
               }`}
             />
           </button>

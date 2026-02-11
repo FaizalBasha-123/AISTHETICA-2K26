@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id="about" className="relative py-20 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="section-title text-center">About AI' STHETICA 2K25</h2>
+        <h2 className="section-title text-center">About AI' STHETICA 2K26</h2>
         <p className="section-subtitle text-center">
           A flagship event bringing together the brightest minds from across colleges
         </p>
@@ -45,7 +45,7 @@ const About = () => {
         <div className="mt-20 p-8 bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl border border-purple-100 animate-fade-in opacity-0" style={{ animationDelay: '0.8s' }}>
           <h3 className="text-2xl font-bold mb-4 text-center">Our Vision</h3>
           <p className="text-center text-gray-700 max-w-3xl mx-auto">
-            AI' STHETICA 2K25 aims to ignite the passion for learning and innovation among students by providing a platform to showcase their talents, exchange ideas, and gain exposure to the latest trends in technology and beyond.
+            AI' STHETICA 2K26 aims to ignite the passion for learning and innovation among students by providing a platform to showcase their talents, exchange ideas, and gain exposure to the latest trends in technology and beyond.
           </p>
         </div>
       </div>
